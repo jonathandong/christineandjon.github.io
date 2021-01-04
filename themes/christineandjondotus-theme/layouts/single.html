@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div id="about"> 
+    <h1>{{ .Site.Title }}</h1>
+    {{ .Content }}
+</div>
+<div id="hist">
+    <p>
+        {{ range where .Site.Pages "Section" .Section }}
+        <a href="{{ .RelPermalink}}">{{ .Title }}</a> //
+        {{ end }}
+    </p>
+    </div>
+{{ end }}

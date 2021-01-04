@@ -1,0 +1,5 @@
+baseURL = "http://christineandjon.us/"
+languageCode = "en-us"
+title = "Christine & Jon"
+theme = 'christineandjondotus-theme'
+publishDir = "docs"
